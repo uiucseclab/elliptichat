@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45E466881AFAD83800C0953A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E466871AFAD83800C0953A /* main.m */; };
+		45E4668B1AFAD83800C0953A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4668A1AFAD83800C0953A /* AppDelegate.m */; };
+		45E4668E1AFAD83800C0953A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4668D1AFAD83800C0953A /* ViewController.m */; };
+		45E466911AFAD83800C0953A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E4668F1AFAD83800C0953A /* Main.storyboard */; };
+		45E466931AFAD83800C0953A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E466921AFAD83800C0953A /* Images.xcassets */; };
+		45E466961AFAD83800C0953A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E466941AFAD83800C0953A /* LaunchScreen.xib */; };
+		45E466A21AFAD83800C0953A /* ElliptiChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E466A11AFAD83800C0953A /* ElliptiChatTests.m */; };
+		45E466AF1AFAD84800C0953A /* GMEllipticCurveCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E466AC1AFAD84800C0953A /* GMEllipticCurveCrypto.m */; };
+		45E466B01AFAD84800C0953A /* GMEllipticCurveCrypto+hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E466AE1AFAD84800C0953A /* GMEllipticCurveCrypto+hash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45E4669C1AFAD83800C0953A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E4667A1AFAD83800C0953A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E466811AFAD83800C0953A;
+			remoteInfo = ElliptiChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45E466821AFAD83800C0953A /* ElliptiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElliptiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E466861AFAD83800C0953A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E466871AFAD83800C0953A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45E466891AFAD83800C0953A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45E4668A1AFAD83800C0953A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45E4668C1AFAD83800C0953A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45E4668D1AFAD83800C0953A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45E466901AFAD83800C0953A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45E466921AFAD83800C0953A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45E466951AFAD83800C0953A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		45E4669B1AFAD83800C0953A /* ElliptiChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElliptiChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E466A01AFAD83800C0953A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E466A11AFAD83800C0953A /* ElliptiChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElliptiChatTests.m; sourceTree = "<group>"; };
+		45E466AB1AFAD84800C0953A /* GMEllipticCurveCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMEllipticCurveCrypto.h; sourceTree = "<group>"; };
+		45E466AC1AFAD84800C0953A /* GMEllipticCurveCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMEllipticCurveCrypto.m; sourceTree = "<group>"; };
+		45E466AD1AFAD84800C0953A /* GMEllipticCurveCrypto+hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMEllipticCurveCrypto+hash.h"; sourceTree = "<group>"; };
+		45E466AE1AFAD84800C0953A /* GMEllipticCurveCrypto+hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GMEllipticCurveCrypto+hash.m"; sourceTree = "<group>"; };
+		45E466B11AFAD85000C0953A /* ecc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ecc.c; sourceTree = "<group>"; };
+		45E466B21AFAD85000C0953A /* ecc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecc.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45E4667F1AFAD83800C0953A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E466981AFAD83800C0953A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45E466791AFAD83800C0953A = {
+			isa = PBXGroup;
+			children = (
+				45E466841AFAD83800C0953A /* ElliptiChat */,
+				45E4669E1AFAD83800C0953A /* ElliptiChatTests */,
+				45E466831AFAD83800C0953A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45E466831AFAD83800C0953A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45E466821AFAD83800C0953A /* ElliptiChat.app */,
+				45E4669B1AFAD83800C0953A /* ElliptiChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45E466841AFAD83800C0953A /* ElliptiChat */ = {
+			isa = PBXGroup;
+			children = (
+				45E466891AFAD83800C0953A /* AppDelegate.h */,
+				45E4668A1AFAD83800C0953A /* AppDelegate.m */,
+				45E4668C1AFAD83800C0953A /* ViewController.h */,
+				45E4668D1AFAD83800C0953A /* ViewController.m */,
+				45E466AB1AFAD84800C0953A /* GMEllipticCurveCrypto.h */,
+				45E466AC1AFAD84800C0953A /* GMEllipticCurveCrypto.m */,
+				45E466AD1AFAD84800C0953A /* GMEllipticCurveCrypto+hash.h */,
+				45E466AE1AFAD84800C0953A /* GMEllipticCurveCrypto+hash.m */,
+				45E4668F1AFAD83800C0953A /* Main.storyboard */,
+				45E466921AFAD83800C0953A /* Images.xcassets */,
+				45E466941AFAD83800C0953A /* LaunchScreen.xib */,
+				45E466B11AFAD85000C0953A /* ecc.c */,
+				45E466B21AFAD85000C0953A /* ecc.h */,
+				45E466851AFAD83800C0953A /* Supporting Files */,
+			);
+			path = ElliptiChat;
+			sourceTree = "<group>";
+		};
+		45E466851AFAD83800C0953A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45E466861AFAD83800C0953A /* Info.plist */,
+				45E466871AFAD83800C0953A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45E4669E1AFAD83800C0953A /* ElliptiChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				45E466A11AFAD83800C0953A /* ElliptiChatTests.m */,
+				45E4669F1AFAD83800C0953A /* Supporting Files */,
+			);
+			path = ElliptiChatTests;
+			sourceTree = "<group>";
+		};
+		45E4669F1AFAD83800C0953A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45E466A01AFAD83800C0953A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45E466811AFAD83800C0953A /* ElliptiChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E466A51AFAD83800C0953A /* Build configuration list for PBXNativeTarget "ElliptiChat" */;
+			buildPhases = (
+				45E4667E1AFAD83800C0953A /* Sources */,
+				45E4667F1AFAD83800C0953A /* Frameworks */,
+				45E466801AFAD83800C0953A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElliptiChat;
+			productName = ElliptiChat;
+			productReference = 45E466821AFAD83800C0953A /* ElliptiChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45E4669A1AFAD83800C0953A /* ElliptiChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E466A81AFAD83800C0953A /* Build configuration list for PBXNativeTarget "ElliptiChatTests" */;
+			buildPhases = (
+				45E466971AFAD83800C0953A /* Sources */,
+				45E466981AFAD83800C0953A /* Frameworks */,
+				45E466991AFAD83800C0953A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45E4669D1AFAD83800C0953A /* PBXTargetDependency */,
+			);
+			name = ElliptiChatTests;
+			productName = ElliptiChatTests;
+			productReference = 45E4669B1AFAD83800C0953A /* ElliptiChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45E4667A1AFAD83800C0953A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Stephen Salerno";
+				TargetAttributes = {
+					45E466811AFAD83800C0953A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					45E4669A1AFAD83800C0953A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 45E466811AFAD83800C0953A;
+					};
+				};
+			};
+			buildConfigurationList = 45E4667D1AFAD83800C0953A /* Build configuration list for PBXProject "ElliptiChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45E466791AFAD83800C0953A;
+			productRefGroup = 45E466831AFAD83800C0953A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45E466811AFAD83800C0953A /* ElliptiChat */,
+				45E4669A1AFAD83800C0953A /* ElliptiChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45E466801AFAD83800C0953A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E466911AFAD83800C0953A /* Main.storyboard in Resources */,
+				45E466961AFAD83800C0953A /* LaunchScreen.xib in Resources */,
+				45E466931AFAD83800C0953A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E466991AFAD83800C0953A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45E4667E1AFAD83800C0953A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E4668E1AFAD83800C0953A /* ViewController.m in Sources */,
+				45E4668B1AFAD83800C0953A /* AppDelegate.m in Sources */,
+				45E466B01AFAD84800C0953A /* GMEllipticCurveCrypto+hash.m in Sources */,
+				45E466AF1AFAD84800C0953A /* GMEllipticCurveCrypto.m in Sources */,
+				45E466881AFAD83800C0953A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E466971AFAD83800C0953A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E466A21AFAD83800C0953A /* ElliptiChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45E4669D1AFAD83800C0953A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45E466811AFAD83800C0953A /* ElliptiChat */;
+			targetProxy = 45E4669C1AFAD83800C0953A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45E4668F1AFAD83800C0953A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E466901AFAD83800C0953A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45E466941AFAD83800C0953A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E466951AFAD83800C0953A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45E466A31AFAD83800C0953A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45E466A41AFAD83800C0953A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45E466A61AFAD83800C0953A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElliptiChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45E466A71AFAD83800C0953A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElliptiChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45E466A91AFAD83800C0953A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ElliptiChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElliptiChat.app/ElliptiChat";
+			};
+			name = Debug;
+		};
+		45E466AA1AFAD83800C0953A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ElliptiChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElliptiChat.app/ElliptiChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45E4667D1AFAD83800C0953A /* Build configuration list for PBXProject "ElliptiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E466A31AFAD83800C0953A /* Debug */,
+				45E466A41AFAD83800C0953A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E466A51AFAD83800C0953A /* Build configuration list for PBXNativeTarget "ElliptiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E466A61AFAD83800C0953A /* Debug */,
+				45E466A71AFAD83800C0953A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45E466A81AFAD83800C0953A /* Build configuration list for PBXNativeTarget "ElliptiChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E466A91AFAD83800C0953A /* Debug */,
+				45E466AA1AFAD83800C0953A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45E4667A1AFAD83800C0953A /* Project object */;
+}

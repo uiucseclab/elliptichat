@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Yc7-M2-c8X">
+                                <rect key="frame" x="16" y="40" width="286" height="441"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tNX-9A-Ko7">
+                                <rect key="frame" x="16" y="489" width="286" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZE-nF-PRL">
+                                <rect key="frame" x="125" y="11" width="70" height="30"/>
+                                <state key="normal" title="ElliptiChat">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTY-CD-kNr">
+                                <rect key="frame" x="16" y="541" width="289" height="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="Public Key: AtF8hCxh9h1zlExuOZutuw+tRzmk3zVdfA==">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCN-NQ-nln">
+                                <rect key="frame" x="16" y="522" width="89" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Name: Stephen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tNX-9A-Ko7" firstAttribute="top" secondItem="Yc7-M2-c8X" secondAttribute="bottom" constant="8" id="3oP-AT-cf6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rTY-CD-kNr" secondAttribute="bottom" constant="8" id="4GR-yx-3U8"/>
+                            <constraint firstItem="tNX-9A-Ko7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5k8-Ms-ijr"/>
+                            <constraint firstItem="Yc7-M2-c8X" firstAttribute="top" secondItem="JZE-nF-PRL" secondAttribute="bottom" constant="-1" id="5oA-AT-23A"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yc7-M2-c8X" secondAttribute="trailing" constant="2" id="7ay-3G-75B"/>
+                            <constraint firstItem="JZE-nF-PRL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-9" id="82Y-Bb-gq0"/>
+                            <constraint firstItem="tNX-9A-Ko7" firstAttribute="leading" secondItem="RCN-NQ-nln" secondAttribute="leading" id="9dL-PK-9U4"/>
+                            <constraint firstItem="Yc7-M2-c8X" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Cpd-fg-Cz0"/>
+                            <constraint firstItem="tNX-9A-Ko7" firstAttribute="leading" secondItem="rTY-CD-kNr" secondAttribute="leading" id="OTb-nt-6G8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tNX-9A-Ko7" secondAttribute="bottom" constant="49" id="Qne-B3-GmE"/>
+                            <constraint firstAttribute="centerX" secondItem="Yc7-M2-c8X" secondAttribute="centerX" constant="1" id="UEr-a3-fw5"/>
+                            <constraint firstItem="rTY-CD-kNr" firstAttribute="top" secondItem="RCN-NQ-nln" secondAttribute="bottom" constant="3" id="Vgf-6c-dC2"/>
+                            <constraint firstAttribute="centerX" secondItem="JZE-nF-PRL" secondAttribute="centerX" constant="1" id="WAr-ix-dHo"/>
+                            <constraint firstItem="Yc7-M2-c8X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XnB-td-em4"/>
+                            <constraint firstAttribute="centerX" secondItem="tNX-9A-Ko7" secondAttribute="centerX" constant="1" id="Ywq-UF-eeS"/>
+                            <constraint firstItem="rTY-CD-kNr" firstAttribute="top" secondItem="tNX-9A-Ko7" secondAttribute="bottom" constant="22" id="b4G-ZG-nv0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tNX-9A-Ko7" secondAttribute="trailing" constant="2" id="hoW-Zf-V8T"/>
+                            <constraint firstItem="RCN-NQ-nln" firstAttribute="top" secondItem="tNX-9A-Ko7" secondAttribute="bottom" constant="3" id="j7D-Z4-lR1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Yc7-M2-c8X" secondAttribute="bottom" constant="87" id="uwM-83-tZg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="keyField" destination="rTY-CD-kNr" id="OrE-y1-SLE"/>
+                        <outlet property="nameField" destination="RCN-NQ-nln" id="0hP-FT-j8s"/>
+                        <outlet property="tableView" destination="Yc7-M2-c8X" id="8Rk-TO-qT4"/>
+                        <outlet property="textField" destination="tNX-9A-Ko7" id="NaN-9I-D5G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160" y="378"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
